@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    background-color: #11001C;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-image {
+    width: 100vw;
+    height: 35vh;
+    background-image: url(../assets/body-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.list-container {
+    width: 40vw;
+    padding: 2em;
+    border-radius: 0.8em;
+    position: absolute;
+    top: 10%;
+    background-color: #3A015C;
+    color: #FFF;
+}
+
+.list-container h1 {
+    padding-left: 0.2em;
+    border-left: 3px solid #11001C;
+    font-size: 32px;
+    font-weight: 300;
+    color: #8f7c9c;
+}
+
+.add-items-container {
+    width: 100%;
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+}
+
+.add-items-container input {
+    width: 80%;
+    padding: 0.8em;
+    border: none;
+    border-radius: 0.5em;
+    margin-right: 1em;
+    background-color: #290025;
+}
+
+.add-items-container input::placeholder {
+    color: #7A7373;
+}
+
+.add-items-container button {
+    width: 20%;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(34, 179, 29);
+    background-color: #3A015C;
+    cursor: pointer;
+}
+
+.items-container {
+    width: 100%;
+}
+
+.items-container h3 {
+    padding-left: 0.2em;
+    border-left: 3px solid #11001C;
+    font-size: 22px;
+    font-weight: 300;
+    color: #8f7c9c;
+}
+
+.items {
+    width: 100%;
+    padding: 1em 0;
+}
+
+.item {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #11001C;
+}
+
+.btn-container .edit-btn {
+    margin-right: 2em;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color:#2522e0;
+    background-color: #11001C;
+    cursor: pointer;
+}
+
+.btn-container .delete-btn {
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color:#bd2121;
+    background-color: #11001C;
+    cursor: pointer;
+}
